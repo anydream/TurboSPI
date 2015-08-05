@@ -1,9 +1,9 @@
-## Overview
+# Overview
 This is another Arduino SPI library separated from SdFat library, it uses SPI registers and DMA (Arduino Due only) to accelerate SPI communication.
 
 Thanks to Bill Greiman
 
-## Configuration
+# Configuration
 I have test this library on Arduino Uno/Mega2560/Due, maybe support other AVR/SAM3X MCUs.
 You can search keywords like "Arduino Mega2560 pinout" to find pinout mapping with your board like this:
 
@@ -23,7 +23,7 @@ You can search keywords like "Arduino Mega2560 pinout" to find pinout mapping wi
 
 #### Then, connect CS, RS or other pins to arduino.
 
-## Example code:
+# Example code:
 ```cpp
 #include <TurboSPI.h>
 
