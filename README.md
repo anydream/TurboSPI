@@ -35,8 +35,8 @@ uint8_t		g_Divisor = 2;	// transfer speed set to MCU's clock divide by 2
 void setup()
 {
 	// setup pins
-	g_PinCS.Begin(pinCS);
-	g_PinRS.Begin(pinRS);
+	g_PinCS.Begin(45);
+	g_PinRS.Begin(47);
 
 	g_PinCS.PinMode(OUTPUT);
 	g_PinRS.PinMode(OUTPUT);
