@@ -7,24 +7,24 @@ Thanks to Bill Greiman
 I have test this library on Arduino Uno/Mega2560/Due, maybe support other AVR/SAM3X MCUs.
 You can search keywords like "Arduino Mega2560 pinout" to find pinout mapping with your board like this:
 
-First, you need connect your slave module to arduino, SCK to SCK, MISO to MISO, MOSI to MOSI, Reset to Reset
+### First, you need connect your slave module to arduino, SCK to SCK, MISO to MISO, MOSI to MOSI, Reset to Reset
 
-Arduino Uno SPI pinout:
+ * Arduino Uno SPI pinout:
 
 ![alt tag](https://github.com/anydream/TurboSPI/raw/master/SPIpinout/uno.jpg)
 
-Arduino Mega2560 SPI pinout:
+ * Arduino Mega2560 SPI pinout:
 
 ![alt tag](https://github.com/anydream/TurboSPI/raw/master/SPIpinout/mega2560.jpg)
 
-Arduino Due SPI pinout:
+ * Arduino Due SPI pinout:
 
 ![alt tag](https://github.com/anydream/TurboSPI/raw/master/SPIpinout/due.jpg)
 
-Then, connect CS, RS or other pins to arduino.
+### Then, connect CS, RS or other pins to arduino.
 
 Example code:
-```
+```cpp
 #include <TurboSPI.h>
 
 TurboSPI	g_SPI;
