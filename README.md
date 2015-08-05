@@ -5,11 +5,14 @@ Thanks to Bill Greiman
 
 # Configuration
 I have test this library on Arduino Uno/Mega2560/Due, maybe support other AVR/SAM3X MCUs.
-You can search keywords like "Arduino Mega2560 pinout" to find pinout mapping with your board like this:
+You can search keywords like "Arduino Mega2560 pinout" to find pinout mapping with your board.
 
 ##### Connect your slave module to arduino:
-	SCK to SCK, MISO to MISO, MOSI to MOSI, Reset to Reset,
-	CS to CS, and other pins.
+	SCK to SCK,
+	MISO to MISO,
+	MOSI to MOSI,
+	Reset to Reset,
+	CS to any digital pin.
 
  * Arduino Uno SPI pinout:
 
