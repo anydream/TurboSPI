@@ -11,15 +11,15 @@ You can search keywords like "Arduino Mega2560 pinout" to find pinout mapping wi
 
  * Arduino Uno SPI pinout:
 
-![alt tag](https://github.com/anydream/TurboSPI/raw/master/SPIpinout/uno.jpg)
+	![alt tag](https://github.com/anydream/TurboSPI/raw/master/SPIpinout/uno.jpg)
 
  * Arduino Mega2560 SPI pinout:
 
-![alt tag](https://github.com/anydream/TurboSPI/raw/master/SPIpinout/mega2560.jpg)
+	![alt tag](https://github.com/anydream/TurboSPI/raw/master/SPIpinout/mega2560.jpg)
 
  * Arduino Due SPI pinout:
 
-![alt tag](https://github.com/anydream/TurboSPI/raw/master/SPIpinout/due.jpg)
+	![alt tag](https://github.com/anydream/TurboSPI/raw/master/SPIpinout/due.jpg)
 
 #### Then, connect CS, RS or other pins to arduino.
 
