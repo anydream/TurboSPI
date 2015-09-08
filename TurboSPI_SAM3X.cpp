@@ -48,7 +48,7 @@ static bool DMAC_ChannelTransferDone(uint32_t ul_num)
 
 //------------------------------------------------------------------------------
 // start RX DMA
-static void SPI_DMA_Receive(uint8_t* dst, uint16_t count)
+static void SPI_DMA_Receive(uint8_t * dst, uint16_t count)
 {
 	DMAC_ChannelDisable(SPI_DMAC_RX_CH);
 	DMAC->DMAC_CH_NUM[SPI_DMAC_RX_CH].DMAC_SADDR = (uint32_t)&SPI0->SPI_RDR;
@@ -65,7 +65,7 @@ static void SPI_DMA_Receive(uint8_t* dst, uint16_t count)
 }
 //------------------------------------------------------------------------------
 // start TX DMA
-static void SPI_DMA_Transfer(const uint8_t* src, uint16_t count)
+static void SPI_DMA_Transfer(const uint8_t * src, uint16_t count)
 {
 	static uint8_t ff = 0XFF;
 	uint32_t src_incr = DMAC_CTRLB_SRC_INCR_INCREMENTING;
@@ -165,7 +165,7 @@ uint8_t TurboSPI::Receive()
 
 //------------------------------------------------------------------------------
 /** SPI receive multiple bytes */
-uint8_t TurboSPI::Receive(uint8_t* buf, size_t n)
+uint8_t TurboSPI::Receive(uint8_t * buf, size_t n)
 {
 	Spi* pSpi = SPI0;
 	int rtn = 0;
@@ -211,7 +211,7 @@ void TurboSPI::Send(uint8_t b)
 }
 
 //------------------------------------------------------------------------------
-void TurboSPI::Send(const uint8_t* buf, size_t n)
+void TurboSPI::Send(const uint8_t * buf, size_t n)
 {
 	Spi* pSpi = SPI0;
 #if USE_SAM3X_DMAC

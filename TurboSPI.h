@@ -26,7 +26,7 @@ public:
 	 *
 	 * \return Zero for no error or nonzero error code.
 	 */
-	uint8_t Receive(uint8_t* buf, size_t n);
+	uint8_t Receive(uint8_t * buf, size_t n);
 	/** Send a byte.
 	 *
 	 * \param[in] data Byte to send
@@ -37,7 +37,7 @@ public:
 	 * \param[in] buf Buffer for data to be sent.
 	 * \param[in] n Number of bytes to send.
 	 */
-	void Send(const uint8_t* buf, size_t n);
+	void Send(const uint8_t * buf, size_t n);
 };
 
 class DigitalPin

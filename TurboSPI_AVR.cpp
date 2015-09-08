@@ -44,7 +44,7 @@ uint8_t TurboSPI::Receive()
 	return SPDR;
 }
 //------------------------------------------------------------------------------
-uint8_t TurboSPI::Receive(uint8_t* buf, size_t n)
+uint8_t TurboSPI::Receive(uint8_t * buf, size_t n)
 {
 	if (n-- == 0)
 	{
@@ -72,7 +72,7 @@ void TurboSPI::Send(uint8_t data)
 		;
 }
 //------------------------------------------------------------------------------
-void TurboSPI::Send(const uint8_t* buf, size_t n)
+void TurboSPI::Send(const uint8_t * buf, size_t n)
 {
 	if (n == 0)
 	{
