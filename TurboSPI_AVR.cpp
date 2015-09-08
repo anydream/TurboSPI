@@ -21,6 +21,8 @@ void TurboSPI::Begin()
 	pinMode(MOSI, OUTPUT);
 	pinMode(SCK, OUTPUT);
 #endif  // __AVR_ATmega328P__
+
+	Init(2);
 }
 //------------------------------------------------------------------------------
 void TurboSPI::Init(uint8_t divisor)

@@ -136,6 +136,8 @@ void TurboSPI::Begin()
 	MATRIX->MATRIX_SCFG[7] = 0x01000010;
 #endif  // USE_SAM3X_BUS_MATRIX_FIX
 #endif  // USE_SAM3X_DMAC
+
+	Init(2);
 }
 
 //------------------------------------------------------------------------------
