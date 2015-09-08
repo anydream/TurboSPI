@@ -275,9 +275,4 @@ void DigitalPin::Low()
 	m_Port->PIO_CODR |= m_Mask;
 }
 
-int DigitalPin::DigitalRead()
-{
-	return digitalRead(m_Pin);
-}
-
 #endif  // defined(__SAM3X8E__) || defined(__SAM3X8H__)

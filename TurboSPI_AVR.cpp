@@ -131,9 +131,4 @@ void DigitalPin::Low()
 	*m_Port &= ~m_Mask;
 }
 
-int DigitalPin::DigitalRead()
-{
-	return (*m_Port & m_Mask) ? HIGH : LOW;
-}
-
 #endif  // __AVR__

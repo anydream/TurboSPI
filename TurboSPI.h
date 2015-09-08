@@ -51,7 +51,10 @@ public:
 	void High();
 	void Low();
 	
-	int DigitalRead();
+	int DigitalRead()
+	{
+		return digitalRead(m_Pin);
+	}
 
 	void AnalogWrite(int val)
 	{
