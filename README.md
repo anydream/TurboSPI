@@ -4,7 +4,7 @@ This is another Arduino SPI library separated from SdFat library, it uses SPI re
 Thanks to Bill Greiman
 
 # Configuration
-Put this folder into your arduino "libraries" folder.
+##### Put this folder into your arduino "libraries" folder.
 
 I have test this library on Arduino Uno/Mega2560/Due, maybe support other AVR/SAM3X MCUs.
 You can search keywords like "Arduino Mega2560 pinout" to find pinout mapping with your board.
