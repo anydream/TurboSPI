@@ -51,6 +51,11 @@ public:
 	void High();
 	void Low();
 
+	void AnalogWrite(int val)
+	{
+		analogWrite(m_Pin, val);
+	}
+
 private:
 	uint8_t				m_Pin;
 #if defined(__SAM3X8E__) || defined(__SAM3X8H__)
