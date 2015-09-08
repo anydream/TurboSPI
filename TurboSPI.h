@@ -50,6 +50,8 @@ public:
 
 	void High();
 	void Low();
+	
+	int DigitalRead();
 
 	void AnalogWrite(int val)
 	{
